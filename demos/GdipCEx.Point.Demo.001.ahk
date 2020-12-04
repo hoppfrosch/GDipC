@@ -1,11 +1,14 @@
 #include %A_ScriptDir%\..\lib\gdipc\gdipc.ahk
 #include %A_ScriptDir%\..\lib\gdipc\gdipcex.ahk
+#include %A_ScriptDir%\..\lib\gdipc\classhelper.ahk
 
 pt1 := GdipC.Point.new()
-pt2 := GdipCEx.Point.new()
-; pt := GdipCEx.Point.fromMouse()
-x := pt2.toJSON()
-MsgBox x
-pt3 := GdipCEx.Point.fromJSON(x)
+pt2 := GdipCEx.Point.new(42, 17)
+
+; Serialize class to JSON
+x := ClassHelper.toJSON(pt2)
+
+; Create a new class instance by deserializing JSON
+pt3 := ClassHelper.newFromJSON(x)
 ExitApp
 

@@ -2,9 +2,9 @@
 
 #include GdipC.ahk
 #include JSON.ahk
+#include ClassHelper.ahk
 
 ; ####################################################
-
 /*
 Title: GDipCEx 
 	
@@ -65,31 +65,8 @@ Authors:
 		}
 	}
 
-	static toJSON(obj, indent:=0) {
-	/* -------------------------------------------------------------------------------
-	Method: toJSON()
-	Converts Object into JSON
-
-	Example:
-	==== AutoHotkey ====
-	str := GdipCEx.toJSON(obj, indent := 2)
-	===
-	*/
-		clone := Map()
-		for key, value in obj.OwnProps() {
-			if (key != "_version")
-				clone[key]:=value
-		}
-		clone["_type"] := type(obj)
-		str := Jxon_Dump(clone,indent)
-
-		return str
-	}
 		
-		
-; #region ### Includes ##########################################################################################	
-
-; #region ### [C] GDipCEx.Point ############################################################################################	
+	; #region ### [C] GDipCEx.Point ############################################################################################	
 	class Point extends GDipC.Point	{
 	; *********************************************************************************************************************
 	/*
@@ -120,37 +97,6 @@ Authors:
 			return r
 		}
 		
-		toJSON(indent:=0) {
-		/* --------------------------------------------------------------------------------------
-		Method: toJSON()
-		Converts current Object into JSON
-
-		Example:
-
-		==== AutoHotkey ====
-		str := obj.toJSON(indent := 2)
-		===
-		*/
-			str := GdipCEx.toJSON(this,indent)
-			return str
-		}
-
-		static fromJSON(str) {
-		/* --------------------------------------------------------------------------------------
-		Method: fromJSON()
-		Converts JSON into new Object
-
-		Example:
-
-		==== AutoHotkey ====
-		obj := GdipCEx.Point.fromJSON()
-		===
-		*/
-			value := Jxon_Load( str )
-			r := GdipCEx.Point.new(value["X"], value["Y"])
-			return r
-		}
-
 		toOpt() {
 		/* --------------------------------------------------------------------------------------
 		Method: toOpt()
@@ -193,37 +139,6 @@ Authors:
 
 		_version := "0.1.0"
 
-		static fromJSON(str) {
-		/* --------------------------------------------------------------------------------------
-		Method: fromJSON()
-		Converts JSON into new Object
-
-		Example:
-
-		==== AutoHotkey ====
-		obj := GdipCEx.Rect.fromJSON()
-		===
-		*/
-			value := Jxon_Load( str )
-			r := GdipCEx.Rect.new(value["X"], value["Y"], value.["width"], value["height"])
-			return r
-		}
-
-		toJSON(indent:=0) {
-		/* --------------------------------------------------------------------------------------
-		Method: toJSON()
-		Converts current Object into JSON
-
-		Example:
-
-		==== AutoHotkey ====
-		str := obj.toJSON(indent := 2)
-		===
-		*/
-			str := GdipCEx.toJSON(this,,indent)
-			return str
-		}
-
 		toOpt() {
 		/* --------------------------------------------------------------------------------------
 		Method: toOpt()
@@ -253,37 +168,6 @@ Authors:
 
 		_version := "0.1.0"
 
-		static fromJSON(str) {
-		/* --------------------------------------------------------------------------------------
-		Method: fromJSON()
-		Converts JSON into new Object
-
-		Example:
-
-		==== AutoHotkey ====
-		obj := GdipCEx.Rect.fromJSON()
-		===
-		*/
-			value := Jxon_Load( str )
-			r := GdipCEx.Rect.new(value["X"], value["Y"], value["width"], value["height"])
-			return r
-		}
-
-		toJSON(indent:=0) {
-		/* --------------------------------------------------------------------------------------
-		Method: toJSON()
-		Converts current Object into JSON
-
-		Example:
-
-		==== AutoHotkey ====
-		str := obj.toJSON(indent := 2)
-		===
-		*/
-			str := GdipCEx.toJSON(this,,indent)
-			return str
-		}
-
 		toOpt() {
 		/* --------------------------------------------------------------------------------------
 		Method: toOpt()
@@ -299,6 +183,4 @@ Authors:
 		}
 	}
 ; #endregion ### [C] GDipCEx.Size #########################################################################################
-
-; #endregion ### Includes #########################################################################################
 }
