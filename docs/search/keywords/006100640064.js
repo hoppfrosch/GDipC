@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("add",["Function"],[["add",,[["GDipC.Point",,,,0,"File:GdipC.ahk:GDipC.Point.add","AutoHotKeyClass:GDipC.Point:add"],["GDipC.Size",,,,0,"File:GdipC.ahk:GDipC.Size.add","AutoHotKeyClass:GDipC.Size:add"]]]]);

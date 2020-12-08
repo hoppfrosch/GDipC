@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GdipC","GdipC");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GdipC",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"]],[[25,0,0,"GdipC"]]);

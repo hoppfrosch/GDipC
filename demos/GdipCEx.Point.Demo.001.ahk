@@ -1,6 +1,6 @@
 #include %A_ScriptDir%\..\lib\gdipc\gdipc.ahk
 #include %A_ScriptDir%\..\lib\gdipc\gdipcex.ahk
-#include %A_ScriptDir%\..\lib\gdipc\classhelper.ahk
+#include %A_ScriptDir%\..\lib\tby\classhelper.ahk
 
 pt1 := GdipC.Point.new()
 pt2 := GdipCEx.Point.new(42, 17)

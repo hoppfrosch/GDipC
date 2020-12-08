@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sub",["Function"],[["subtract",,[["GDipC.Point",,,,0,"File:GdipC.ahk:GDipC.Point.subtract","AutoHotKeyClass:GDipC.Point:subtract"],["GDipC.Size",,,,0,"File:GdipC.ahk:GDipC.Size.subtract","AutoHotKeyClass:GDipC.Size:subtract"]]]]);

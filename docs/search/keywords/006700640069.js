@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("gdi",["Class","Section"],[["GDipC",,[[,"GdipC",,,0,"File:GdipC.ahk:GdipC","AutoHotKeyClass:GdipC"],[,,,,1,"File:GdipC.ahk:GDipC"]]],["GDipCEx",,[[,"GdipCEx",,,0,"File:GdipCEx.ahk:GdipCEx","AutoHotKeyClass:GdipCEx"],[,,,,1,"File:GdipCEx.ahk:GDipCEx"]]]]);

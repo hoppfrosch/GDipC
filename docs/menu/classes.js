@@ -1,0 +1,1 @@
+﻿NDMenu.OnSectionLoaded("classes.js",[[1,"GdipC"],[2,"GDipC","AutoHotKeyClass:GDipC.",[[1,"Color"],[1,"Point"],[1,"Rect"],[1,"Size"]]],[1,"GdipCEx"],[2,"GDipCEx","AutoHotKeyClass:GDipCEx.",[[1,"Color"],[1,"Point"],[1,"Rect"],[1,"Size"]]]]);

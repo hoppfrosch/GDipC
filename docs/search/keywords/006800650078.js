@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("hex",["Property"],[["hex",,[["GDipC.Color",,,,0,"File:GdipC.ahk:GDipC.Color.hex","AutoHotKeyClass:GDipC.Color:hex"]]],["hexRGB",,[["GDipC.Color",,,,0,"File:GdipC.ahk:GDipC.Color.hexRGB","AutoHotKeyClass:GDipC.Color:hexRGB"]]]]);

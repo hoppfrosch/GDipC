@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("clo",["Function"],[["clone",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.clone","AutoHotKeyClass:GDipC.Rect:clone"]]]]);

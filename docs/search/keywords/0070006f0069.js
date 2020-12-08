@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("poi",["Class"],[["Point",,[["GDipC",,,,0,"File:GdipC.ahk:GDipC.Point","AutoHotKeyClass:GDipC.Point"],["GDipCEx",,,,0,"File:GdipCEx.ahk:GDipCEx.Point","AutoHotKeyClass:GDipCEx.Point"]]]]);

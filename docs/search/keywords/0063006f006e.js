@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("con",["Function"],[["contains",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.contains","AutoHotKeyClass:GDipC.Rect:contains"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("inf",["Function"],[["inflate",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.inflate","AutoHotKeyClass:GDipC.Rect:inflate"]]]]);

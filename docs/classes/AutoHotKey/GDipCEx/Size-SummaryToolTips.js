@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GDipCEx.Size",{16:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">2-dimensional size, based on Class GdipC.Size</div></div>",18:"<div class=\"NDToolTip TFunction LAutoHotKey\"><div class=\"TTSummary\">Converts current Object into opt string to be used within AHK commands</div></div>"});

@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GdipCEx","GdipCEx");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GdipCEx",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"],["Groups","Group"],["Properties","Property"]],[[4,0,0,"GdipCEx"],[5,0,1,"Properties","Properties"],[6,0,2,"version [get]","version"]]);

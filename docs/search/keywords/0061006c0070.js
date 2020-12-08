@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("alp",["Property"],[["alpha",,[["GDipC.Color",,,,0,"File:GdipC.ahk:GDipC.Color.alpha","AutoHotKeyClass:GDipC.Color:alpha"]]]]);

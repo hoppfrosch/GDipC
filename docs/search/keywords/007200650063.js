@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("rec",["Class"],[["Rect",,[["GDipC",,,,0,"File:GdipC.ahk:GDipC.Rect","AutoHotKeyClass:GDipC.Rect"],["GDipCEx",,,,0,"File:GdipCEx.ahk:GDipCEx.Rect","AutoHotKeyClass:GDipCEx.Rect"]]]]);

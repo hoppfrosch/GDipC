@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GDipCEx.Size","Size");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GDipCEx.Size",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[16,0,0,"<span class=\"Qualifier\">GDipCEx.</span>&#8203;Size"],[17,0,2,"Functions","Functions"],[18,0,1,"toOpt()","toOpt"]]);

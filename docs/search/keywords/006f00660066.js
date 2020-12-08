@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("off",["Function"],[["offset",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.offset","AutoHotKeyClass:GDipC.Rect:offset"]]]]);

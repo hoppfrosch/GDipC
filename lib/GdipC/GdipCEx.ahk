@@ -1,8 +1,7 @@
 ; ####################################################
 
 #include GdipC.ahk
-#include JSON.ahk
-#include ClassHelper.ahk
+#include %A_ScriptFile\..\..\TBy\ClassHelper.ahk
 
 ; ####################################################
 /*
@@ -183,4 +182,37 @@ Authors:
 		}
 	}
 ; #endregion ### [C] GDipCEx.Size #########################################################################################
+
+; #region ### [C] GDipCEx.Color ###########################################################################################	
+	class Color extends GdipC.Color {
+	; *********************************************************************************************************************
+	/*
+	Class: GDipCEx.Color
+		Color, based on Class <GdipC.Color at https://github.com/AutoHotkey-V2/GdipC>
+
+	Authors:
+	<hoppfrosch at hoppfrosch@gmx.de>: Original
+	*/
+
+		_version := "0.1.0"
+
+		newFromRGB(hex) {
+		/* ---------------------------------------------------------------------------------------
+		Method: newFromRGB()
+		Constructor - Fills values from given hex value
+	
+		Parameters:
+		hex - hex color string
+	
+		Returns:
+		new instance of this class
+		*/
+			Red   := ((hex & 0xFF0000) >> 16)
+			Green := ((hex & 0x00FF00) >> 8)
+			Blue  :=  (hex & 0x0000FF)
+			obj := GdipC.Color.new(255,Red,Green,Blue)
+			return obj
+		}
+	}
+; #endregion ### [C] GDipCEx.Color #######################################################################################
 }

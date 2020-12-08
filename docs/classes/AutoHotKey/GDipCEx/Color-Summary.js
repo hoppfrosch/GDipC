@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GDipCEx.Color","Color");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GDipCEx.Color",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[19,0,0,"<span class=\"Qualifier\">GDipCEx.</span>&#8203;Color"],[20,0,2,"Functions","Functions"],[21,0,1,"newFromRGB()","newFromRGB"]]);

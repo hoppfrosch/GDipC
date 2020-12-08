@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fro",["Function"],[["fromMouse",,[["GDipCEx.Point",,,,0,"File:GdipCEx.ahk:GDipCEx.Point.fromMouse","AutoHotKeyClass:GDipCEx.Point:fromMouse"]]]]);

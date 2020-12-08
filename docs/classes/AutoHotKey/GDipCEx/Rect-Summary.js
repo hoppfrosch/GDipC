@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GDipCEx.Rect","Rect");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GDipCEx.Rect",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[13,0,0,"<span class=\"Qualifier\">GDipCEx.</span>&#8203;Rect"],[14,0,2,"Functions","Functions"],[15,0,1,"toOpt()","toOpt"]]);

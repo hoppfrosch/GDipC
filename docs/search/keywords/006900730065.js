@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ise",["Function"],[["isEmptyArea",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.isEmptyArea","AutoHotKeyClass:GDipC.Rect:isEmptyArea"]]]]);

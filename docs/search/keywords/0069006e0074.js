@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("int",["Function"],[["intersect",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.intersect","AutoHotKeyClass:GDipC.Rect:intersect"]]],["intersectsWith",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.intersectsWith","AutoHotKeyClass:GDipC.Rect:intersectsWith"]]]]);

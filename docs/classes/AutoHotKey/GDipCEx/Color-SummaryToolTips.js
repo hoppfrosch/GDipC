@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GDipCEx.Color",{19:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">Color, based on Class GdipC.Color</div></div>"});

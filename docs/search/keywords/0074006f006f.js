@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("too",["Function"],[["toOpt",,[["GDipCEx.Point",,,,0,"File:GdipCEx.ahk:GDipCEx.Point.toOpt","AutoHotKeyClass:GDipCEx.Point:toOpt"],["GDipCEx.Rect",,,,0,"File:GdipCEx.ahk:GDipCEx.Rect.toOpt","AutoHotKeyClass:GDipCEx.Rect:toOpt"],["GDipCEx.Size",,,,0,"File:GdipCEx.ahk:GDipCEx.Size.toOpt","AutoHotKeyClass:GDipCEx.Size:toOpt"]]]]);
