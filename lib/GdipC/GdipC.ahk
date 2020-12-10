@@ -32,7 +32,7 @@ SOFTWARE.
 */
 
 release_version() {
-	return "2.0.a122"
+	return "0.1.0"
 }
 
 class GdipC {
