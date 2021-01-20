@@ -8,3 +8,6 @@ ToDo
 tempCodeRunnerFile.ahk
 lib/TBy
 /lib/TBy.ahk
+_oldstuff
+lib/Gdip.ahk
+lib/GdiPlusFlat.h

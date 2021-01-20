@@ -7,8 +7,8 @@
 		{
 			"type": "autohotkey",
 			"request": "launch",
-			"name": "Debug AHK 2.0.a122",
-			"runtime": "${workspaceRoot}/_build/autohotkey.exe",
+			"name": "Debug AHK 2.0.x",
+			"runtime": "${workspaceFolder}/../_build/autohotkey.exe",
 			"program": "${file}",
 			"stopOnEntry": true
 		}

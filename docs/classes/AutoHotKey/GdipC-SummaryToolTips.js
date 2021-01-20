@@ -1,1 +1,1 @@
-﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GdipC",{25:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">Class container for several GDip classes. This class represents the namespace.</div></div>"});
+﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GdipC",{11:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">Class container for several GDip classes. This class represents the namespace.</div></div>"});

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dis",["Function"],[["dispose",,[["GDipC.Obj",,,,0,"File:GdipC.ahk:GDipC.Obj.dispose","AutoHotKeyClass:GDipC.Obj:dispose"]]]]);

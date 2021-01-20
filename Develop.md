@@ -6,7 +6,7 @@
 
 ## Building the Documentation
 
-Go into folder *_build* and run script *mkDoc.ahkÜ
+Go into folder *_build* and run script *mkDoc.ahk*
 
 ## Auto-Build documentation on commit
 

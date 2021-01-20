@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("lic",["Information"],[["License",,[[,,,,0,"File:GdipC.ahk:License"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("lic",["Information"],[["License",,[[,,,,0,"File:Gdip.ahk:License"]]]]);

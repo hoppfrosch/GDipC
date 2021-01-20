@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GDipC.Pen",{45:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">GDI+ Pen (see https://&#8203;docs&#8203;.microsoft&#8203;.com&#8203;/en-us&#8203;/windows&#8203;/win32&#8203;/api&#8203;/gdipluspen&#8203;/nl-gdipluspen-pen) The GDipC.Pen object is used to draw contours and lines.</div></div>"});

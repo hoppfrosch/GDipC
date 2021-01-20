@@ -1,1 +1,0 @@
-﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GDipCEx.Rect",{13:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">2-dimensional rectangle, based on Class GdipC.Rect</div></div>",15:"<div class=\"NDToolTip TFunction LAutoHotKey\"><div class=\"TTSummary\">Converts current Object into opt string to be used within AHK commands</div></div>"});

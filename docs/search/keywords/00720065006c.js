@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("rel",["Function"],[["ReleaseDC",,[["GDipC.Obj",,,,0,"File:GdipC.ahk:GDipC.Obj.ReleaseDC","AutoHotKeyClass:GDipC.Obj:ReleaseDC"]]]]);

@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("fro",["Function"],[["fromMouse",,[["GDipCEx.Point",,,,0,"File:GdipCEx.ahk:GDipCEx.Point.fromMouse","AutoHotKeyClass:GDipCEx.Point:fromMouse"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("fro",["Function"],[["fromHwnd",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.fromHwnd","AutoHotKeyClass:GDipC.Rect:fromHwnd"]]],["fromMouse",,[["GDipC.Point",,,,0,"File:GdipC.ahk:GDipC.Point.fromMouse","AutoHotKeyClass:GDipC.Point:fromMouse"]]]]);

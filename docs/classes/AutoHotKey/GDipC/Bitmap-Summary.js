@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GDipC.Bitmap","Bitmap");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GDipC.Bitmap",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"]],[[22,0,0,"<span class=\"Qualifier\">GDipC.</span>&#8203;Bitmap"]]);

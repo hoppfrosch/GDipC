@@ -1,1 +1,1 @@
-﻿NDContentPage.OnToolTipsLoaded({7:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">2-dimensional point, based on Class GdipC.Point Authors: hoppfrosch: Original</div></div>",13:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">2-dimensional rectangle, based on Class GdipC.Rect</div></div>",16:"<div class=\"NDToolTip TClass LAutoHotKey\"><div class=\"TTSummary\">2-dimensional size, based on Class GdipC.Size</div></div>"});
+﻿NDContentPage.OnToolTipsLoaded({});

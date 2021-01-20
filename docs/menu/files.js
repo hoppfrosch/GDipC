@@ -1,1 +1,1 @@
-﻿NDMenu.OnSectionLoaded("files.js",[[1,"GdipC.ahk"],[1,"GdipCEx.ahk"]]);
+﻿NDMenu.OnSectionLoaded("files.js",[[1,"Gdip.ahk"],[1,"GdipC.ahk"],[1,"GdipCEx.ahk"]]);

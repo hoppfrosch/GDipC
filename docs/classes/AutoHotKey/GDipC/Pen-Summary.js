@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AutoHotKeyClass:GDipC.Pen","Pen");NDSummary.OnSummaryLoaded("AutoHotKeyClass:GDipC.Pen",[["AutoHotKey","AutoHotKey"]],[["Classes","Class"]],[[45,0,0,"<span class=\"Qualifier\">GDipC.</span>&#8203;Pen"]]);

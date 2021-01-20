@@ -2,8 +2,8 @@
 #include %A_ScriptDir%\..\lib\gdipc\gdipcex.ahk
 #include %A_ScriptDir%\..\lib\tby\classhelper.ahk
 
-pt1 := GdipC.Point.new()
-pt2 := GdipCEx.Point.new(42, 17)
+pt1 := GdipC.Point()
+pt2 := GdipCEx.Point(42, 17)
 
 ; Serialize class to JSON
 x := ClassHelper.toJSON(pt2)

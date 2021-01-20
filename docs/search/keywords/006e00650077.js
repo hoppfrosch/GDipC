@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("new",["Function"],[["newFromRGB",,[["GDipCEx.Color",,,,0,"File:GdipCEx.ahk:GDipCEx.Color.newFromRGB","AutoHotKeyClass:GDipCEx.Color:newFromRGB"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("new",["Function"],[["newFromHexRGB",,[["GDipC.Color",,,,0,"File:GdipC.ahk:GDipC.Color.newFromHexRGB","AutoHotKeyClass:GDipC.Color:newFromHexRGB"]]]]);

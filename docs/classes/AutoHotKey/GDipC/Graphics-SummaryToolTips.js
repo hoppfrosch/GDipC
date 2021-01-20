@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AutoHotKeyClass:GDipC.Graphics",{42:"<div class=\"NDToolTip TFunction LAutoHotKey\"><div class=\"TTSummary\">The constructor supports followings parameters:</div></div>",44:"<div class=\"NDToolTip TProperty LAutoHotKey\"><div class=\"TTSummary\">Version of the class</div></div>"});

@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixDataLoaded("siz",["Class"],[["Size",,[["GDipC",,,,0,"File:GdipC.ahk:GDipC.Size","AutoHotKeyClass:GDipC.Size"],["GDipCEx",,,,0,"File:GdipCEx.ahk:GDipCEx.Size","AutoHotKeyClass:GDipCEx.Size"]]]]);
+﻿NDSearch.OnPrefixDataLoaded("siz",["Class"],[["Size",,[["GDipC",,,,0,"File:GdipC.ahk:GDipC.Size","AutoHotKeyClass:GDipC.Size"]]]]);

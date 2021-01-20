@@ -6,9 +6,9 @@
 		{
 			"label": "Build the documentation",
 			"type": "shell",
-			"script": "./_build/autohotkey.exe ./_build/mkdoc.ahk",
+			"script": "${workspaceFolder}/../_build/autohotkey.exe ${workspaceFolder}/_build/mkdoc.ahk",
 			"windows": {
-				"command": ".\\_build\\autohotkey.exe .\\_build\\mkdoc.ahk"
+				"command": "${workspaceFolder}\\..\\_build\\autohotkey.exe .\\_build\\mkdoc.ahk"
 			},
 			"presentation": {
 				"panel": "shared"

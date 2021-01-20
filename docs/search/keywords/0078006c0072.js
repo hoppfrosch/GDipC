@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("xlr",["Property"],[["xlr",,[["GDipC.Rect",,,,0,"File:GdipC.ahk:GDipC.Rect.xlr","AutoHotKeyClass:GDipC.Rect:xlr"]]]]);

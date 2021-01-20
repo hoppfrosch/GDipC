@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sel",["Function"],[["SelectObject",,[["GDipC.Obj",,,,0,"File:GdipC.ahk:GDipC.Obj.SelectObject","AutoHotKeyClass:GDipC.Obj:SelectObject"]]]]);

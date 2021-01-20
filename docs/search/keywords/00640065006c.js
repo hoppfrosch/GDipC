@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("del",["Function"],[["DeleteDC",,[["GDipC.Obj",,,,0,"File:GdipC.ahk:GDipC.Obj.DeleteDC","AutoHotKeyClass:GDipC.Obj:DeleteDC"]]]]);
