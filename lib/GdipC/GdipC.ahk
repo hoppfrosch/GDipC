@@ -32,7 +32,7 @@ SOFTWARE.
 */
 
 release_version() {
-	return "0.1.0"
+	return "0.1.1"
 }
 
 class GdipC {
@@ -45,20 +45,15 @@ Authors:
 <hoppfrosch at hoppfrosch@gmx.de>: Original
 */
 	_version := "0.1.0"
+	Static token     := 0
+
 	__new()  {
 
 		if !DllCall("GetModuleHandle", "str", "gdiplus")
 			DllCall("LoadLibrary", "str", "gdiplus")
-		si := BufferAlloc(((A_PtrSize = 8) ? 24 : 16, 0), NumPut("uint", 0x1, si))
+		si := BufferAlloc(16, NumPut("uint", 0x1, si))
 		DllCall("gdiplus\GdiplusStartup", "uptr*", pToken:=0, "uptr", si, "uint", 0)
-		this.pToken := pToken
-
-;		this._New := Gdip.__new
-;		Gdip.__new := Gdip.__dummyNew
-	}
-
-	__dummyNew() {
-		return false
+		this.token := pToken
 	}
 
 	__delete() {
@@ -66,11 +61,13 @@ Authors:
 	}
 
 	dispose() {
-		DllCall("gdiplus\GdiplusShutdown", "uptr", this.pToken)
-		if (hModule := DllCall("GetModuleHandle", "str", "gdiplus"))
+		If (this.token != 0) {
+			DllCall("gdiplus\GdiplusShutdown", "uptr", this.token)
+			this.token := 0
+		}
+		if (hModule := DllCall("GetModuleHandle", "str", "gdiplus")) {
 			DllCall("FreeLibrary", "uptr", hModule)
-
-;		Gdip.__new := this._New
+		}
 	}
 
 ; ####################################################
