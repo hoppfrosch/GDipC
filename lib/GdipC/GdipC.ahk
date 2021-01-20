@@ -81,7 +81,7 @@ Class: GDipC.Color
 Authors: 
 	<hoppfrosch at hoppfrosch@gmx.de>: Original
 */
-	_version := "1.0.0"
+	_version := "1.0.1"
 	_debug := 1
 	
 	__new(params*)	{
@@ -112,19 +112,36 @@ Authors:
 	*/
 		c := params.Length
 		if (c = 0){
-			this.ARGB := (255 << 24) | (0 << 16) | (0 << 8) | 0
+			a := 255
+			r := 0
+			g := 0
+			b := 0
 		}
 		else  if (c = 1) {
 			this.ARGB := params[1]
 		}
 		else  if (c = 3) {
-			this.ARGB := (255 << 24) | (params[1] << 16) | (params[2] << 8) | params[3]
+			a := 255
+			r := params[1]
+			g := params[2]
+			b := params[3]
 		}
 		else  if (c = 4) {
-			this.ARGB := (params[1] << 24) | (params[2] << 16) | (params[3] << 8) | params[4]
+			a := params[1]
+			r := params[2]
+			g := params[3]
+			b := params[4]
 		}
 		else {
 			throw "Incorrect number of parameters for "  A_ThisFunc
+		}
+		if (c = 0 || c >= 3) {
+			this.ARGB := (
+				  Min(Max(a, 0), 255) << 24 
+				| Min(Max(r, 0), 255) << 16 
+				| Min(Max(g, 0), 255) << 8 
+				| Min(Max(b, 0), 255) << 0
+			)
 		}
 	}
 	; ===== Properties ===============================================================
@@ -133,6 +150,9 @@ Authors:
 	Property: a [get/set]
 	gets/sets the alpha component of this Color object.
 	
+	See also:
+	<alpha>
+
 	Value:
 	a - alpha component
 	*/
@@ -140,7 +160,7 @@ Authors:
 			return (0xff000000 & this.ARGB) >> 24
 		}
 		set {
-			this.ARGB := (value << 24) | (this.r << 16) | (this.g << 8) | this.b
+			this.ARGB := ((Min(Max(value, 0), 255), 255) << 24) | (this.r << 16) | (this.g << 8) | this.b << 0
 			return value
 		}
 	}
@@ -149,8 +169,11 @@ Authors:
 	Property: alpha [get/set]
 	gets/sets the alpha component of this Color object.
 	
+	See also:
+	<a>
+
 	Value:
-	a - alpha component
+	alpha - alpha component
 	*/
 		get {
 			return this.a
@@ -165,6 +188,9 @@ Authors:
 	Property: r [get/set]
 	gets/sets the red component of this Color object.
 	
+	See also:
+	<red>
+
 	Value:
 	r - red component
 	*/
@@ -172,7 +198,26 @@ Authors:
 			return (0x00ff0000 & this.ARGB) >> 16
 		}
 		set {
-			this.ARGB := (this.a << 24) | (value << 16) | (this.g << 8) | this.b
+			this.ARGB := (this.a << 24) | (Min(Max(value, 0), 255) << 16) | (this.g << 8) | this.b << 0
+			return value
+		}
+	}
+	red[] {
+	/* -------------------------------------------------------------------------------
+	Property: red [get/set]
+	gets/sets the red component of this Color object.
+	
+	See also:
+	<r>
+
+	Value:
+	red - red component
+	*/
+		get {
+			return this.r
+		}
+		set {
+			this.r := value
 			return value
 		}
 	}
@@ -181,6 +226,9 @@ Authors:
 	Property: g [get/set]
 	gets/sets the green component of this Color object.
 	
+	See also:
+	<green>
+
 	Value:
 	g - green component
 	*/
@@ -188,7 +236,26 @@ Authors:
 			return (0x0000ff00 & this.ARGB) >> 8
 		}
 		set {
-			this.ARGB := (this.a << 24) | (this.r << 16) | (value << 8) | this.b
+			this.ARGB := (this.a << 24) | (this.r << 16) | (Min(Max(value, 0), 255) << 8) | this.b << 0
+			return value
+		}
+	}
+	green[] {
+	/* -------------------------------------------------------------------------------
+	Property: green [get/set]
+	gets/sets the green component of this Color object.
+	
+	See also:
+	<g>
+
+	Value:
+	green - green component
+	*/
+		get {
+			return this.g
+		}
+		set {
+			this.g := value
 			return value
 		}
 	}
@@ -197,6 +264,9 @@ Authors:
 	Property: b [get/set]
 	gets/sets the blue component of this Color object.
 	
+	See also:
+	<blue>
+
 	Value:
 	b - blue component
 	*/
@@ -204,7 +274,26 @@ Authors:
 			return 0x000000ff & this.ARGB
 		}
 		set {
-			this.ARGB := (this.a << 24) | (this.r << 16) | (this.g << 8) | value
+			this.ARGB := (this.a << 24) | (this.r << 16) | (this.g << 8) | (Min(Max(value, 0), 255) << 0)
+			return value
+		}
+	}
+	blue[] {
+	/* -------------------------------------------------------------------------------
+	Property: blue [get/set]
+	gets/sets the blue component of this Color object.
+	
+	See also:
+	<b>
+
+	Value:
+	blue - blue component
+	*/
+		get {
+			return this.b
+		}
+		set {
+			this.b := value
 			return value
 		}
 	}
@@ -219,7 +308,7 @@ Authors:
 		set {
 			this.r := ((value & 0xFF0000) >> 16)
 			this.g := ((value & 0x00FF00) >> 8)
-			this.b  :=  (value & 0x0000FF)
+			this.b := ((value & 0x0000FF) >> 0)
 			return value
 		}
 	}

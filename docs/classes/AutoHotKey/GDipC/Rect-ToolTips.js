@@ -1,1 +1,1 @@
-﻿NDContentPage.OnToolTipsLoaded({59:"<div class=\"NDToolTip TFunction LAutoHotKey\"><div class=\"TTSummary\">The method GDipC.Rect.contains checks whether anther object is within the given rectangle. Following overloaded methods are supported:</div></div>"});
+﻿NDContentPage.OnToolTipsLoaded({62:"<div class=\"NDToolTip TFunction LAutoHotKey\"><div class=\"TTSummary\">The method GDipC.Rect.contains checks whether anther object is within the given rectangle. Following overloaded methods are supported:</div></div>"});
